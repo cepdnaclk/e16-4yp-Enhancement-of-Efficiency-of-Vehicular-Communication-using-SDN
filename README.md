@@ -20,9 +20,9 @@ it becomes more of a real-world application.
 
 #### Team
 
-- E/16/055, Chamith U.K.D.K, [email](mailto:e16055@eng.pdn.ac.lk)
-- E/16/115, Deshan L.A.C, [email](mailto:e16115@eng.pdn.ac.lk)
-- E/16/172, Thisanke M.K.H, [email](mailto:e16172@eng.pdn.ac.lk)
+- E/16/055, S.Bragadeeshan, [email](mailto:e16055@eng.pdn.ac.lk)
+- E/16/115, S.Girishikan, [email](mailto:e16115@eng.pdn.ac.lk)
+- E/16/172, V.Karikaran, [email](mailto:e16172@eng.pdn.ac.lk)
 
 #### Supervisors
 
