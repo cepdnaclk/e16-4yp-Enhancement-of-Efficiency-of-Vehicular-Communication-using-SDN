@@ -1,0 +1,41 @@
+{
+    "team": [
+        {
+            "name": "Chamith U.K.D.K",
+            "email": "e16057@eng.pdn.ac.lk",
+            "eNumber": "E/16/057"
+        },
+        {
+            "name": "Deshan L.A.C",
+            "email": "e16076@eng.pdn.ac.lk",
+            "eNumber": "E/16/076"
+        },
+        {
+            "name": "Thisanke M.K.H",
+            "email": "e16368@eng.pdn.ac.lk",
+            "eNumber": "E/16/368"
+        }
+    ],
+    "supervisors": [
+        {
+            "name": "Dr. Damayanthi Herath",
+            "email": "damayanthiherath@eng.pdn.ac.lk"
+        },
+        {
+            "name": "Dr. Sachith Seneviratne",
+            "email": "sachith.seneviratne@unimelb.edu.au"
+        },
+        {
+            "name": "Dr. Rajith Vidanaarachchi",
+            "email": "rajith.vidanaarachchi@unimelb.edu.au"
+        }
+    ],
+    "media": [
+        {
+            "type": "youtube",
+            "title": "",
+            "url": "#"
+        }
+    ],
+    "tags": ["Computer Vision", "Vision Transformers", "Human-Elephant Conflict", "Agent-Based Modelling"]
+}
