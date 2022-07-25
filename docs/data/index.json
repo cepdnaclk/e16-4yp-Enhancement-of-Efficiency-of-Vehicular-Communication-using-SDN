@@ -1,34 +1,26 @@
 {
     "team": [
         {
-            "name": "Chamith U.K.D.K",
-            "email": "e16057@eng.pdn.ac.lk",
-            "eNumber": "E/16/057"
+            "name": "S.Bragadeeshan",
+            "email": "e16055@eng.pdn.ac.lk",
+            "eNumber": "E/16/055"
         },
         {
-            "name": "Deshan L.A.C",
-            "email": "e16076@eng.pdn.ac.lk",
-            "eNumber": "E/16/076"
+            "name": "S.Girishikan",
+            "email": "e16115@eng.pdn.ac.lk",
+            "eNumber": "E/16/115"
         },
         {
-            "name": "Thisanke M.K.H",
-            "email": "e16368@eng.pdn.ac.lk",
-            "eNumber": "E/16/368"
+            "name": "V.Karikaran",
+            "email": "e16172@eng.pdn.ac.lk",
+            "eNumber": "E/16/172"
         }
     ],
     "supervisors": [
         {
-            "name": "Dr. Damayanthi Herath",
-            "email": "damayanthiherath@eng.pdn.ac.lk"
-        },
-        {
-            "name": "Dr. Sachith Seneviratne",
-            "email": "sachith.seneviratne@unimelb.edu.au"
-        },
-        {
-            "name": "Dr. Rajith Vidanaarachchi",
-            "email": "rajith.vidanaarachchi@unimelb.edu.au"
-        }
+            "name": "Dr. Suneth Namal",
+            "email": "namal@eng.pdn.ac.lk"
+        } 
     ],
     "media": [
         {

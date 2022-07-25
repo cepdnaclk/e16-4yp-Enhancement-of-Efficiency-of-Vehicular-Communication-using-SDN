@@ -13,15 +13,13 @@ title:
 
 #### Team
 
-- E/16/057, Chamith U.K.D.K, [email](mailto:e16057@eng.pdn.ac.lk)
-- E/16/076, Deshan L.A.C, [email](mailto:e16076@eng.pdn.ac.lk)
-- E/16/368, Thisanke M.K.H, [email](mailto:e16368@eng.pdn.ac.lk)
+- E/16/055, S.Bragadeeshan, [email](mailto:e16055@eng.pdn.ac.lk)
+- E/16/115, S.Girishikan, [email](mailto:e16115@eng.pdn.ac.lk)
+- E/16/172, V.Karikaran, [email](mailto:e16172@eng.pdn.ac.lk)
 
 #### Supervisors
 
-- Dr. Damayanthi Herath, [email](mailto:damayanthiherath@eng.pdn.ac.lk)
-- Dr. Sachith Seneviratne, [email](mailto:sachith.seneviratne@unimelb.edu.au)
-- Dr. Rajith Vidanaarachchi, [email](mailto:rajith.vidanaarachchi@unimelb.edu.au)
+- Dr. Suneth Namal, [email](mailto:namal@eng.pdn.ac.lk)
 
 #### Table of content
 
@@ -36,9 +34,9 @@ title:
 
 ---
 
-This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
+<!-- This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
 
-![Sample Image](./images/sample.png)
+![Sample Image](./images/sample.png) -->
 
 ## Abstract
 
@@ -64,7 +62,7 @@ This is a sample image, to show how to add images to your page. To learn more op
 
 [//]: # ( NOTE: EDIT THIS LINKS WITH YOUR REPO DETAILS )
 
-- [Project Repository](https://github.com/cepdnaclk/repository-name)
+- [Project Repository](https://github.com/cepdnaclk/e16-4yp-Using-Computer-Vision-and-Agent-Based-Modelling-to-Explore-the-Human-Elephant-Conflict/tree/main/docs)
 - [Project Page](https://cepdnaclk.github.io/repository-name)
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
