@@ -3,13 +3,13 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and title
-repository-name: e16-4yp-Using-Computer-Vision-and-Agent-Based-Modelling-to-Explore-the-Human-Elephant-Conflict
+repository-name: e16-4yp-Enhancement-of-Efficiency-of-Vehicular-Communication-using-SDN
 title:
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Using Computer Vision and Agent-Based Modelling to explore the Human-Elephant conflict
+# Enhancement of the Efficiency of Vehicular Communication using SDN
 
 #### Team
 
