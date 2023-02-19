@@ -80,6 +80,14 @@ The figure shows that the local controllers are connected to the SDN switches th
 ### Network Design and Implementation
 In this study, we used the Mininet-wifi simulator to implement the AODV routing protocol in an SDN network. Mininet-wifi is a widely used SDN network emulator that allows for the simulation of wireless networks. To capture simulation results, we used Wireshark and Iperf tools. To set up the environment, we used the Linux 14.04 operating system, as it provides the best support for running Mininet projects. The simulation area was defined as 100*100m. We designed a network for three cars, and then sequentially created networks for four, five, seven, and nine cars to analyze the performance. Table 1 shows the parameters and corresponding specifications used for the environment setup. In this study, we used the ONOS controller instead of the default OpenFlow controller to control the SDN network. The use of ONOS provides additional functionality, including support for multiple network topologies and device types. The performance of the AODV routing protocol was evaluated using metrics such as throughput, end-to-end delay, and packet delivery ratio.
 
+### Performance Metrics
+Maximum packet delay is a performance metric used to evaluate the effectiveness of the AODV routing protocol in the simulated SDN-based VANET. The maximum packet delay is calculated using the following formula [14]:
+
+d = max(tr - tt) for i = 0 to n
+
+where d is the maximum delay, n is the number of transmitted packets, tr is the time when the packet is received, and tt is the time when the packet is transmitted. This metric is used to compare the performance of the SDN-based VANET with a traditional network.
+
+
 ## Results and Analysis
 In this study, we compare the performance of a software-defined network (SDN) architecture and a traditional network architecture using maximum packet delay as the performance metric. To conduct the comparison, we use Mininet-wifi as the network simulator and AODV as the routing protocol. The simulation is run for a fixed duration of 10 seconds in a predefined simulation area with varying numbers of nodes (3, 4, 5, 7, 9, and 11). The simulation results are analyzed to determine the maximum packet delay for both network architectures.
 ### Maximum Packet Delay
