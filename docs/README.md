@@ -83,7 +83,7 @@ In this study, we used the Mininet-wifi simulator to implement the AODV routing 
 ## Results and Analysis
 In this study, we compare the performance of a software-defined network (SDN) architecture and a traditional network architecture using maximum packet delay as the performance metric. To conduct the comparison, we use Mininet-wifi as the network simulator and AODV as the routing protocol. The simulation is run for a fixed duration of 10 seconds in a predefined simulation area with varying numbers of nodes (3, 4, 5, 7, 9, and 11). The simulation results are analyzed to determine the maximum packet delay for both network architectures.
 ### Maximum Packet Delay
-The performance of SDN is compared with the traditional network architecture [21] using Maximum Packet Delay as the performance metric. The comparison results between SDN and traditional network architecture for AODV are shown in Figure 4. It can be observed from the figure that SDN consistently outperforms traditional networks as the number of nodes increases
+The performance of SDN is compared with the traditional network architecture [14] using Maximum Packet Delay as the performance metric. The comparison results between SDN and traditional network architecture for AODV are shown in Figure 4. It can be observed from the figure that SDN consistently outperforms traditional networks as the number of nodes increases
 
 
 ## Conclusion
@@ -143,6 +143,9 @@ Networking and Mobile Computing (WiCOM), 2011 7th International Conference on. I
 [12] B. K, “Software-defined networking (sdn): a survey, security and communication networks,” vol. 9, no. 18, pp. 5803–5833, 2016.
 
 [13] “Floodlight controller, floodlight documentation, for developers, architecture. [online]. retrieved from: http://www.projectfloodlight.org/floodlight/.” 
+
+[14] G. Z. Santoso and M. Kang, “Performance analysis of aodv, dsdv and olsr in a vanets safety application scenario,” in Advanced communication technology (ICACT), 2012 14th international conference on. IEEE, 2012, pp.
+
 
 
 
