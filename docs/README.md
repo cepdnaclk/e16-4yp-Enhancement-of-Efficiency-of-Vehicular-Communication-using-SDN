@@ -70,6 +70,7 @@ VANET technology is a wireless network for vehicles that merges the facilities o
 ## Methodology
 The performance of the AODV routing protocol in an SDN-based wireless network is evaluated using Mininet-WiFi and the ONOS controller. Mininet-WiFi is a popular network emulator that allows for the simulation of wireless networks, while ONOS is a popular open-source SDN controller.The simulation setup consists of a wireless network with multiple Access Points (APs) and mobile nodes. The APs are connected to the ONOS controller, which is responsible for managing the network topology and routing decisions. The mobile nodes move randomly within the network, generating traffic and sending packets to each other.The performance of the AODV routing protocol is evaluated based on various Quality of Service (QoS) metrics such as packet delivery ratio. The experiments are conducted with varying network parameters such as the number of nodes, traffic load, and mobility patterns.The simulation results are collected and analyzed to compare the performance of AODV with other routing protocols. The performance of AODV is also evaluated with different network topologies, including scenarios with a varying number of APs and mobile nodes.To ensure the reliability of the results, each experiment is run multiple times, and the average value of the QoS metrics is calculated. The results are presented in the form of graphs and tables, showing the comparative performance of AODV with other routing protocols.Overall, the methodology involves simulating a wireless network using Mininet-WiFi with the ONOS controller and evaluating the performance of the AODV routing protocol based on various QoS metrics. The simulation results are used to compare the performance of AODV with other routing protocols and to evaluate the impact of network parameters on the performance of AODV.
 ### Architecture
+![Architecture image  ](https://github.com/cepdnaclk/e16-4yp-Enhancement-of-Efficiency-of-Vehicular-Communication-using-SDN/blob/main/docs/images/arch.png)
 
 In this hierarchical SDN controller architecture for SDN VANET, there are two levels of controllers. The first level of controllers is responsible for managing the SDN switches that are directly connected to the roadside units (RSUs). These controllers are referred to as local controllers and are in charge of handling the communication between the SDN switches and the second level of controllers.
 
@@ -100,9 +101,27 @@ where d is the maximum delay, n is the number of transmitted packets, tr is the 
 
 
 ## Results and Analysis
-In this study, we compare the performance of a software-defined network (SDN) architecture and a traditional network architecture using maximum packet delay as the performance metric. To conduct the comparison, we use Mininet-wifi as the network simulator and AODV as the routing protocol. The simulation is run for a fixed duration of 10 seconds in a predefined simulation area with varying numbers of nodes (3, 4, 5, 7, 9, and 11). The simulation results are analyzed to determine the maximum packet delay for both network architectures.
+In this study, we aimed to compare the performance of a software-defined network (SDN) architecture and traditional network architecture in a vehicular ad hoc network (VANET) environment using maximum packet delay as the performance metric. We also tested the seamless connectivity between access points when a vehicle moved from one access point to another in our proposed architecture.
+
+To conduct the comparison, we used Mininet-wifi as the network simulator and AODV as the routing protocol, as AODV is commonly used in traditional VANET environments. We implemented and tested two different setups: VANET with SDN and AODV, and VANET with AODV only, without SDN.
+
+The simulation was run for a fixed duration of 10 seconds in a predefined simulation area with varying numbers of nodes (3, 4, 5, 7, 9, and 11). The simulation results were analyzed to determine the maximum packet delay for both network architectures.
+
+### Reachability
+Figure 1 illustrates the process of vehicles communicating with each other through a controller. The network area is established by access points, while each car is referred to as a node or station (STA). When the destination car is within the network area, communication can be established. Figure 2 displays the response message generated after the ping operation is performed. If the destination car is not located within any access point, it will not be reachable. Figure 3 demonstrates the unreliability of the car in the communication process.
+
+
 ### Maximum Packet Delay
-The performance of SDN is compared with the traditional network architecture [14] using Maximum Packet Delay as the performance metric. The comparison results between SDN and traditional network architecture for AODV are shown in Figure 4. It can be observed from the figure that SDN consistently outperforms traditional networks as the number of nodes increases
+The performance of SDN is compared with the traditional network architecture [21] using Maximum Packet Delay as the performance metric. The comparison results between SDN and traditional network architecture for AODV are shown in Figure 4. It can be observed from the figure that SDN consistently outperforms traditional networks as the number of nodes increases.
+![Alternate image text](https://github.com/cepdnaclk/e16-4yp-Enhancement-of-Efficiency-of-Vehicular-Communication-using-SDN/blob/main/docs/images/graph.png)
+
+### Seamless Connectivity Test
+To test the seamless connectivity between access points when a vehicle moved from one access point to another in our proposed architecture, we conducted a reliability test. We found that the proposed architecture provided seamless connectivity between access points as expected. However, when we checked the Maximum Packet Delay, we found that it was slightly higher than the Maximum Packet Delay in a single access point VANET environment.
+
+To investigate this issue, we performed a root cause analysis and identified that the access point authentication delay was the probable cause of the higher Maximum Packet Delay. While the delay was minor, it did have a measurable impact on the overall performance of the proposed architecture.
+
+Overall, our findings indicate that the SDN-based VANET architecture outperforms the traditional VANET architecture in terms of maximum packet delay. However, the seamless connectivity between access points can lead to a slightly higher maximum packet delay due to access point authentication delays. Further research can focus on optimizing the access point authentication process to minimize delays and enhance the overall performance of the proposed architecture.
+
 
 
 ## Conclusion
