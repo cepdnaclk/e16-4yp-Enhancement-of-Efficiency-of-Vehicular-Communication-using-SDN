@@ -80,6 +80,17 @@ The figure shows that the local controllers are connected to the SDN switches th
 ### Network Design and Implementation
 In this study, we used the Mininet-wifi simulator to implement the AODV routing protocol in an SDN network. Mininet-wifi is a widely used SDN network emulator that allows for the simulation of wireless networks. To capture simulation results, we used Wireshark and Iperf tools. To set up the environment, we used the Linux 14.04 operating system, as it provides the best support for running Mininet projects. The simulation area was defined as 100*100m. We designed a network for three cars, and then sequentially created networks for four, five, seven, and nine cars to analyze the performance. Table 1 shows the parameters and corresponding specifications used for the environment setup. In this study, we used the ONOS controller instead of the default OpenFlow controller to control the SDN network. The use of ONOS provides additional functionality, including support for multiple network topologies and device types. The performance of the AODV routing protocol was evaluated using metrics such as throughput, end-to-end delay, and packet delivery ratio.
 
+| Parameters      | Specifications |
+| ----------- | ----------- |
+| OS  	| Linux 22.04  	|
+| Network Simulator  	| Mininet-wifi 	|
+| Controller  	| Onos   | 
+| Simulation Area  	| 100m*100m 	|
+| Number of vehicles  	| 3-12 cars  	|
+| Transmission Range  	|250m 	|
+| MAC Protocol  	| IEEE 802.11b  	|
+| Channel type	|Wireless	|
+
 ### Performance Metrics
 Maximum packet delay is a performance metric used to evaluate the effectiveness of the AODV routing protocol in the simulated SDN-based VANET. The maximum packet delay is calculated using the following formula [14]:
 
