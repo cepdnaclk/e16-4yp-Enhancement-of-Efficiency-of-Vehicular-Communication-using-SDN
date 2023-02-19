@@ -121,7 +121,7 @@ Overall, the practical validation of SDN in VANETs has shown promise, and furthe
 1. [Semester 7 report](mailto:e16055@eng.pdn.ac.lk)
 2. [Semester 7 slides](https://drive.google.com/file/d/1qNPMzzCQkq7bm19bFe8Um0pGLGj1mxFt/view?usp=sharing)
 3. [Semester 8 report](./)
-4. [Semester 8 slides](./https://docs.google.com/presentation/d/1w5GcJTS9TH5v161wV5eW_38iunlxY_XI/edit?usp=sharing&ouid=118043054665956893788&rtpof=true&sd=true)
+4. [Semester 8 slides](https://docs.google.com/presentation/d/1w5GcJTS9TH5v161wV5eW_38iunlxY_XI/edit?usp=sharing&ouid=118043054665956893788&rtpof=true&sd=true)
 5. Karikaran V, Bragadeeshan S and Girishikan S "Research paper title" (2021). [PDF](./).
 
 
