@@ -59,11 +59,32 @@ Recently, Habib and Rutuja [5] implemented the DSDV routing protocol in SDN and 
 For instance, in [6], AODV, DSDV, and AOMDV were simulated and compared in a realistic environment. Similarly, a study in [7] analyzed the performance of AODV, DSR, and Swarm. Moreover, the performance of AODV, DSR, and DSDV in freeway environments was discussed in [8]. In [9], OLSR and AODV were compared in an urban realistic environment, while in a highly fading environment, their performance was evaluated in [10]. In a city traffic scenario, a study in [11] evaluated FSR, AODV, DSR, and TORA. These studies provide valuable insights into the performance of different routing protocols under various conditions and parameters, which can be used to enhance the overall performance of VANETs.
 
 
-## Methodology
+## SDN and VANET
+In traditional network infrastructures, maintenance can be expensive due to the variety and complexity of network elements [12]. Frequent network failures also decrease the reliability of the underlying infrastructure. Overall network implementation, configuration, and troubleshooting require highly skilled network technicians. In SDN, however, networking elements such as routers, switches, and access points are separated from the data plane, which makes routing and forwarding decisions. This separation allows for programmability, centralized control, network flexibility, efficient configuration, and enhanced management.
 
-## Experiment Setup and Implementation
+The centralized control operation of SDN dictates network policies. Many open-source controller platforms are available for SDN, including Floodlight [13], OpenDayLight, and Beacon. The network is managed by different layers, including the application, control, and data plane. The application layer provides resources to customers, the control plane changes network policies and logical entities, and the data plane sets up physical network elements.
+
+VANET technology is a wireless network for vehicles that merges the facilities of wireless networks. It creates a robust Ad-Hoc network between roadside units and vehicles and is part of the MANET family. VANETs use some ad-hoc networking tools, such as IEEE 802.11 bg (Wifi), IEEE 802.10 (WiMAX), and Bluetooth, to create a network between moving nodes. The goal of VANET is to provide safety-related information, monitor traffic, and communicate speed. VANET allows two moving vehicles to communicate with each other on the road. However, maintaining handoff can be challenging due to high-speed nodes.
+
+
+## Methodology
+The performance of the AODV routing protocol in an SDN-based wireless network is evaluated using Mininet-WiFi and the ONOS controller. Mininet-WiFi is a popular network emulator that allows for the simulation of wireless networks, while ONOS is a popular open-source SDN controller.The simulation setup consists of a wireless network with multiple Access Points (APs) and mobile nodes. The APs are connected to the ONOS controller, which is responsible for managing the network topology and routing decisions. The mobile nodes move randomly within the network, generating traffic and sending packets to each other.The performance of the AODV routing protocol is evaluated based on various Quality of Service (QoS) metrics such as packet delivery ratio. The experiments are conducted with varying network parameters such as the number of nodes, traffic load, and mobility patterns.The simulation results are collected and analyzed to compare the performance of AODV with other routing protocols. The performance of AODV is also evaluated with different network topologies, including scenarios with a varying number of APs and mobile nodes.To ensure the reliability of the results, each experiment is run multiple times, and the average value of the QoS metrics is calculated. The results are presented in the form of graphs and tables, showing the comparative performance of AODV with other routing protocols.Overall, the methodology involves simulating a wireless network using Mininet-WiFi with the ONOS controller and evaluating the performance of the AODV routing protocol based on various QoS metrics. The simulation results are used to compare the performance of AODV with other routing protocols and to evaluate the impact of network parameters on the performance of AODV.
+### Architecture
+
+In this hierarchical SDN controller architecture for SDN VANET, there are two levels of controllers. The first level of controllers is responsible for managing the SDN switches that are directly connected to the roadside units (RSUs). These controllers are referred to as local controllers and are in charge of handling the communication between the SDN switches and the second level of controllers.
+
+The second level of controllers, known as the global controllers, is responsible for managing the overall VANET network. These controllers receive information from the local controllers and make global decisions on network policies, security, and mobility management. The global controllers are connected to the local controllers through a dedicated communication network.
+
+The figure shows that the local controllers are connected to the SDN switches through a local control network, while the global controllers are connected to the local controllers through a global control network. This architecture provides a scalable solution for managing large-scale VANET networks. It allows for efficient management of network resources and enables centralized control of network policies while also enabling distributed decision-making.
+
+### Network Design and Implementation
+In this study, we used the Mininet-wifi simulator to implement the AODV routing protocol in an SDN network. Mininet-wifi is a widely used SDN network emulator that allows for the simulation of wireless networks. To capture simulation results, we used Wireshark and Iperf tools. To set up the environment, we used the Linux 14.04 operating system, as it provides the best support for running Mininet projects. The simulation area was defined as 100*100m. We designed a network for three cars, and then sequentially created networks for four, five, seven, and nine cars to analyze the performance. Table 1 shows the parameters and corresponding specifications used for the environment setup. In this study, we used the ONOS controller instead of the default OpenFlow controller to control the SDN network. The use of ONOS provides additional functionality, including support for multiple network topologies and device types. The performance of the AODV routing protocol was evaluated using metrics such as throughput, end-to-end delay, and packet delivery ratio.
 
 ## Results and Analysis
+In this study, we compare the performance of a software-defined network (SDN) architecture and a traditional network architecture using maximum packet delay as the performance metric. To conduct the comparison, we use Mininet-wifi as the network simulator and AODV as the routing protocol. The simulation is run for a fixed duration of 10 seconds in a predefined simulation area with varying numbers of nodes (3, 4, 5, 7, 9, and 11). The simulation results are analyzed to determine the maximum packet delay for both network architectures.
+### Maximum Packet Delay
+The performance of SDN is compared with the traditional network architecture [21] using Maximum Packet Delay as the performance metric. The comparison results between SDN and traditional network architecture for AODV are shown in Figure 4. It can be observed from the figure that SDN consistently outperforms traditional networks as the number of nodes increases
+
 
 ## Conclusion
 In conclusion, the deployment of Software-Defined Networking (SDN) in vehicular ad hoc networks (VANETs) offers significant benefits, including increased manageability, adaptability, and programmability. The separation of the control plane from the data plane and the programmable nature of the control plane makes SDN an ideal solution for handling the dynamic and unpredictable network topology that arises from vehicle mobility in VANETs.
@@ -82,7 +103,7 @@ Overall, the practical validation of SDN in VANETs has shown promise, and furthe
 2. [Semester 7 slides](./)
 3. [Semester 8 report](./)
 4. [Semester 8 slides](./)
-5. Author 1, Author 2 and Author 3 "Research paper title" (2021). [PDF](./).
+5. Karikaran V, Bragadeeshan S and Girishikan S "Research paper title" (2021). [PDF](./).
 
 
 ## Links
@@ -118,6 +139,11 @@ Networking and Mobile Computing (WiCOM), 2011 7th International Conference on. I
 [10] Imran Khan and Amir Qayyum, “Performance Evaluation of AODV and OLSR in Highly Fading Vehicular Ad hoc Network Environments”, IEEE International Multitopic Conference, 2008. INMIC 2008.
 
 [11] Sven Jaap, Marc Bechler and Lars Wolf, “Evaluation of Routing Protocols for Vehicular Ad Hoc Networks in City Traffic Scenarios”, 5th International Conference on Intelligent Transportation Systems (ITS) Telecommunications, 2005.
+
+[12] B. K, “Software-defined networking (sdn): a survey, security and communication networks,” vol. 9, no. 18, pp. 5803–5833, 2016.
+
+[13] “Floodlight controller, floodlight documentation, for developers, architecture. [online]. retrieved from: http://www.projectfloodlight.org/floodlight/.” 
+
 
 
 
